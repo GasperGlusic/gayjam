@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Ran : MonoBehaviour
+public class Blak : MonoBehaviour
 {
    int i, je = 0;
    public float cas, casD;
