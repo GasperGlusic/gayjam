@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Random : MonoBehaviour
+public class Ran : MonoBehaviour
 {
    int i, je = 0;
    public float cas, casD;
