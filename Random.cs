@@ -14,7 +14,7 @@ void Start() {
         i = UnityEngine.Random.Range(1, 3);
         je = 0;
         if(i == 1) {
-            //.. tu se duplicirajo
+            kloniranje();
         }
     }
 
