@@ -7,7 +7,7 @@ public class Detekcija : MonoBehaviour
    private Skore score;
 
    void Start() {
-      score = GameObject.FindGameObjectWithTag("Skor").GetComponent<Skore>.();
+      score = GameObject.FindGameObjectWithTag("Skor").GetComponent<Skore>();
    }
 
    void OnTriggerStay2D(Collider2D other)
