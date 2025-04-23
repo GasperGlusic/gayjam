@@ -11,7 +11,7 @@ void Start() {
 }
 
     void Detonacija() {
-        i = UnityEngine.Random.Range(1, 3);
+        i = Random.Range(1, 3);
         je = 0;
         if(i == 1) {
             kloniranje();
