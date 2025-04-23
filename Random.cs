@@ -7,7 +7,7 @@ public class Blak : MonoBehaviour
    private GameObject objekt;
 
 void Start() {
-    objekt = GameObject.FindGameObjectWithTag("Enemy");
+    objekt = GameObject.Find("Ordinary");
 }
 
     void Detonacija() {
