@@ -8,7 +8,6 @@ public class Timer : MonoBehaviour
    public int cas;
    public float speed;
    TextMeshProUGUI text; 
-   private int temp;
 
     void Start() {
         TextMeshProUGUI text = gameObject.GetComponent<TextMeshProUGUI>();
@@ -21,7 +20,7 @@ public class Timer : MonoBehaviour
 
    void Update() {
     text.text = (cas/60).ToString() + " : " + (cas%60).ToString();
-    if(cas % 60 > )
+    
     if(je == 0) {
         je = 1;
         Invoke("Timr", speed);
