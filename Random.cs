@@ -3,11 +3,15 @@ using UnityEngine;
 public class Blak : MonoBehaviour
 {
    int i, je = 0;
-   public float cas, casD;
-   public GameObject objekt;
+   private float cas = 15, casD = 60;
+   private GameObject objekt;
+
+void Start() {
+    objekt = GameObject.FindGameObjectWithTag("Enemy");
+}
 
     void Detonacija() {
-        i = Random.Range(1, 3);
+        i = UnityEngine.Random.Range(1, 3);
         if(i == 1) {
             //.. tu se duplicirajo
         }
