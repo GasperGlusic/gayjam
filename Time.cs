@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-public class  : MonoBehaviour
+public class Timer : MonoBehaviour
 {
    int je = 0;
    public int cas;
