@@ -1,7 +1,7 @@
 using UnityEngine;
 using Unity.Random;
 
-public class  : MonoBehaviour
+public class Random : MonoBehaviour
 {
    int i, je = 0;
    public float cas, casD;
