@@ -1,11 +1,10 @@
 using UnityEngine;
-using Unity.Random;
 
 public class Random : MonoBehaviour
 {
    int i, je = 0;
    public float cas, casD;
-   public gameObject objekt;
+   public GameObject objekt;
 
     void Detonacija() {
         i = Random.Range(1, 3);
