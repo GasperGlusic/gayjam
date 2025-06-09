@@ -1,0 +1,2 @@
+https://api.chucknorris.io/jokes/random
+https://catfact.ninja/fact
